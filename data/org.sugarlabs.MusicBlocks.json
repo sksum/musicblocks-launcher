@@ -6,8 +6,7 @@
     "command": "launcher",
     "finish-args": [
         "--share=network",
-        "--socket=wayland",
-        "--socket=fallback-x11",
+        "--socket=x11",
         "--socket=pulseaudio",
         "--device=dri",
         "--env=MUSICBLOCKS_PATH=/app/share/musicblocks"

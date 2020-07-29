@@ -1,0 +1,13 @@
+diff --git a/musicblocks/js/SaveInterface.js b/musicblocks/js/SaveInterface.js
+index 2b8f36e47c54beef53ccfdc43a8626b44187874b..0068a9902f425156d487ec104df571da6e1cbe43 100644
+--- a/musicblocks/js/SaveInterface.js
++++ b/musicblocks/js/SaveInterface.js
+@@ -84,7 +84,7 @@ function SaveInterface(PlanetInterface) {
+             if (window.isElectron == true) {
+                 filename = defaultfilename;
+             } else {
+-                filename = prompt("Filename:", defaultfilename);
++                filename = defaultfilename;
+             }
+         } else {
+             if (fileExt(defaultfilename) != extension) {
