@@ -9,6 +9,7 @@
     <property name="allow_file_access_from_file_urls">True</property>
     <property name="allow_universal_access_from_file_urls">True</property>
     <property name="hardware-acceleration-policy">WEBKIT_HARDWARE_ACCELERATION_POLICY_ALWAYS</property>
+    <property name="enable_web_audio">True</property>
   </object>
   <template class="MyWindow" parent="GtkWindow">
     <property name="can_focus">False</property>
